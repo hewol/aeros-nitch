@@ -21,7 +21,7 @@ func getLogo*(distroId: string): tuple =
       (fgMagenta, gentooLogo),
       (fgMagenta, endeavourosLogo),
       (fgBlue, artixLogo),
-      (fgWhite, aerOSLogo),
+      (fgWhite, aerOSLogo)
     ]
 
   case distroId:
