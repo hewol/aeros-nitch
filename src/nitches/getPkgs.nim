@@ -41,5 +41,8 @@ proc getPkgs*(distroId: string): string =
   of "pop":
     result = getDpkgPkgs()
 
+  of "aerOS":
+    result = getPacmanPkgs()
+
   else:
     result = ">3"
