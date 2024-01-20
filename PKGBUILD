@@ -2,7 +2,7 @@
 
 pkgname=nitch
 pkgver=0.1.6
-_commit=73819b1
+_commit=HEAD
 pkgrel=3
 pkgdesc="Incredibly fast system fetch written in nim"
 arch=(x86_64)
